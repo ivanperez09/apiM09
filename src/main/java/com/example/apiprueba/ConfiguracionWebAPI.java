@@ -13,7 +13,7 @@ public class ConfiguracionWebAPI {
 
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/usuaris/**")
+                registry.addMapping("/sneakers/**")
                         //.allowedOrigins("http://localhost:9001")
                         .allowedOrigins("*")
                         .allowedMethods("GET", "POST", "PUT", "DELETE")
