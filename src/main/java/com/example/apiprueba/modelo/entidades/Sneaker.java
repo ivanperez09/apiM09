@@ -18,5 +18,4 @@ public class Sneaker {
     private Date releaseDate;
     private String mainColor;
     private String sku;
-
 }
