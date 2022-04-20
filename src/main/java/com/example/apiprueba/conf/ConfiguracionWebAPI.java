@@ -1,4 +1,4 @@
-package com.example.apiprueba;
+package com.example.apiprueba.conf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

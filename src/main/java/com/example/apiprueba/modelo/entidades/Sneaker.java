@@ -1,6 +1,7 @@
 package com.example.apiprueba.modelo.entidades;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,6 +10,7 @@ import java.util.Date;
 
 @Data
 @Entity
+@RequiredArgsConstructor
 public class Sneaker {
     @Id
     @GeneratedValue

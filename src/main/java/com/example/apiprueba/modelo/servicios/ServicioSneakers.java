@@ -2,6 +2,7 @@ package com.example.apiprueba.modelo.servicios;
 
 import com.example.apiprueba.modelo.entidades.Sneaker;
 import com.example.apiprueba.modelo.repositorios.RepositorioSneaker;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
