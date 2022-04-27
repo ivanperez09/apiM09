@@ -1,7 +1,6 @@
 package com.example.apiprueba.modelo.entidades;
 
-import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -31,51 +30,9 @@ public class User implements UserDetails {
         return roles;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public String getRol() {
-        return rol;
-    }
-
-    @Override
-    public String getPassword() {
-        return null;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
-    }
-
-    public void setRol(String rol) {
-        this.rol = rol;
-    }
-
-    @Override
-    public String getUsername() {
-        return null;
-    }
-
     @Override
     public boolean isAccountNonExpired() {
-        return true;
+        return false;
     }
 
     @Override

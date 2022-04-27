@@ -35,6 +35,14 @@ public class ControladorRegistroLoginUsuarios {
     "password":"1234",
     "avatar":"http://imatge.com"
     }
+
+    {
+    "brand": "prueba",
+    "model": "prueba",
+    "releaseDate": "19/05/2020",
+    "mainColor": "prueba",
+    "sku": "prueba"
+}
     Afegeix id automàticament
      */
     @PostMapping("/users")
