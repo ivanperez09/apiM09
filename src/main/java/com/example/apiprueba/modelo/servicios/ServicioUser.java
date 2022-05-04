@@ -23,6 +23,9 @@ public class ServicioUser {
         repositorioUser.save(newUser);
         return newUser;
     }
+    public User consultarPerId(Long id){
+        return repositorioUser.findById(id).orElse(null);
+    }
 
     public List<User> llistarUsuaris(){
         return repositorioUser.findAll();
